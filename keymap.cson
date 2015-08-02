@@ -26,19 +26,33 @@
 
 
 # ***************************************************************
-# Navigation
+# Global
 # ***************************************************************
+
+# Navigation
+# -------------
 'atom-text-editor.vim-mode':
   'ctrl-k': 'core:move-up'
   'ctrl-l': 'core:move-right'
   'ctrl-j': 'core:move-down'
   'ctrl-h': 'core:move-left'
 
+# ***************************************************************
+# Visual mode
+# ***************************************************************
+
 'atom-text-editor.vim-mode:not(.insert-mode)':
-  #'g s': 'rails-open-rspec:open-rspec-file'
+
+# Editing
+# -------------
+  ', space': 'editor:toggle-line-comments'
+  'shift-enter': 'editor:newline-above'
+  'enter': 'editor:newline-below'
+
+# Navigation
+# -------------
   'ctrl-k': 'custom:vim-jump-up'
   'ctrl-j': 'custom:vim-jump-down'
-
 
 # ***************************************************************
 # Insert mode
