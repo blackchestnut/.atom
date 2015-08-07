@@ -48,7 +48,7 @@
   ', space': 'editor:toggle-line-comments'
   'shift-enter': 'editor:newline-above'
   'enter': 'editor:newline-below'
-  'ctrl-p': 'clipboard-plus:toggle'
+  'ctrl-p': 'clipboard-plus:toggle' # See https://atom.io/packages/clipboard-plus and https://atom.io/packages/vim-mode-clipboard-plus
 
 # Navigation
 # -------------
