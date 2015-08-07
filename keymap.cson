@@ -48,6 +48,7 @@
   ', space': 'editor:toggle-line-comments'
   'shift-enter': 'editor:newline-above'
   'enter': 'editor:newline-below'
+  'ctrl-p': 'clipboard-plus:toggle'
 
 # Navigation
 # -------------
